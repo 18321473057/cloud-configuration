@@ -1,5 +1,6 @@
 server:
   port: 9000
+  context-path:
 spring:
   application:
     name: cloud-configuration
@@ -7,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/18321473057/cloud-configuration-yml.git
 #  rabbitmq: #RabbitMQ相关的配置
 #    host: ${rabbitMQHost:127.0.0.1}
 #    port: ${rabbitMQPort:5672}
